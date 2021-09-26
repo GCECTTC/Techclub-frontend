@@ -14,6 +14,7 @@ export default function MultiActionAreaCard(props) {
     flexDirection: "column",
     width: "22vw",
     transitionDuration: "0.3s",
+    borderRadius: "30px",
     height: "fit-content",
     maxHeight: "100vh",
     margin: "2% 1%",

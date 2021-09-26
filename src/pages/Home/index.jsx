@@ -14,7 +14,6 @@ import Team from "./Team"
 
 import ClubSection from "./Club/ClubSection"
 
-
 const Home = props => {
   // console.log(props);
   const history = useHistory()
@@ -59,10 +58,9 @@ const Home = props => {
 
   return (
     <div className="Homepage45">
-
       <Banner auth={props.auth} />
       <ClubSection />
-
+      <Team />
       <Grid container justify="space-around" style={{ padding: "50px 12px" }}>
         <Grid item sm={12}>
           <Typography style={{ padding: "0 20px" }} variant="h5">
