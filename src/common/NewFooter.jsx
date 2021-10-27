@@ -40,8 +40,7 @@ function Footer() {
             <h4>Social Media</h4>
             <Link to="/">Instagram</Link>
             <Link to="/">Facebook</Link>
-
-            <Link to="/">Youtube</Link>
+            <Link to="/">YouTube</Link>
             <Link to="/">Twitter</Link>
           </div>
         </div>
